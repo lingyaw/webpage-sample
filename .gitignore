@@ -1,0 +1,105 @@
+# ===============================
+# Ignore PyCharm project files
+# ===============================
+.idea/
+*.iml
+
+# ===============================
+# Ignore Jupyter Notebook checkpoints
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Ignore Mac OS X system files
+# ===============================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===============================
+# Ignore Python compiled files
+# ===============================
+*.py[cod]
+__pycache__/
+*.pyo
+*.pyd
+*.whl
+
+# ===============================
+# Ignore virtual environments and dependency files
+# ===============================
+# Python virtual environments
+.venv/
+.env/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python dependency logs
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+Pipfile.lock
+
+# ===============================
+# Ignore logs, temporary, and cache files
+# ===============================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+# Ignore coverage and test reports
+# ===============================
+.coverage
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+test-results.xml
+
+# ===============================
+# Ignore Visual Studio and VS Code files
+# ===============================
+.vscode/
+.vscode-test/
+.vscode/extensions/
+*.code-workspace
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+*.sln
+out/
+*.vcxproj
+*.vcxproj.user
+
+# ===============================
+# Ignore database and environment files
+# ===============================
+*.sqlite3
+*.db
+*.db-journal
+
+# ===============================
+# Ignore OS-specific files
+# ===============================
+# Windows Thumbnail cache files
+Thumbs.db
+ehthumbs.db
+# Windows Desktop.ini file
+Desktop.ini
+
